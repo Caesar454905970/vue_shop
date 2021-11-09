@@ -40,7 +40,7 @@
             </el-switch>
           </template>
         </el-table-column>
-        <el-table-column label="操作" prop="mg_state" with="180">
+        <el-table-column label="操作" prop="mg_state" width="180">
           <template v-slot="scope">
             <!--修改按钮-->
             <el-tooltip  effect="dark" content="修改用户" placement="top-start" :enterable="false">

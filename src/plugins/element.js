@@ -23,7 +23,8 @@ import { Button,
   Switch,
   Tooltip,
   Pagination,
-  Dialog,} from 'element-ui'
+  Dialog,
+  Tag} from 'element-ui'
 
 Vue.use(Button)
 Vue.use(Form)
@@ -48,5 +49,6 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
 Vue.prototype.$message = Message //导入弹窗组件
 Vue.prototype.$confirm = MessageBox.confirm //导入弹窗组件
