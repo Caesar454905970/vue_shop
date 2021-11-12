@@ -28,7 +28,10 @@ import { Button,
   Tree,
   Select,
   Option,
-  Cascader} from 'element-ui'
+  Cascader,
+  alert,
+  Tabs,
+  TabPane} from 'element-ui'
 
 Vue.use(Option)
 
@@ -59,5 +62,8 @@ Vue.use(Dialog)
 Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Cascader)
+Vue.use(alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
 Vue.prototype.$message = Message //导入弹窗组件
 Vue.prototype.$confirm = MessageBox.confirm //导入弹窗组件
